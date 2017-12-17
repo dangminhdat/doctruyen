@@ -1,0 +1,38 @@
+# Bảo vệ file .htaccess
+<Files .htaccess>
+Order Allow,Deny
+Deny from all
+</Files>
+
+# Rewrite Url
+RewriteEngine on
+#trang chu
+RewriteRule ^trang-chu$ index.php
+
+#page
+#RewriteRule ^page/([0-9]+) index.php?page=$1
+#RewriteRule ^page/([0-9]+)/ index.php?page=$1
+
+#truyentranh
+RewriteRule ^([a-zA-Z0-9_-]+).jsp$ index.php?id_tt=$1
+
+#truyentranh
+RewriteRule ^([a-zA-Z0-9_-]+).jsp/page/([0-9]+)$ index.php?id_tt=$1&page=$2
+
+#chuyenmuc
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?id_cm=$1
+RewriteRule ^([a-zA-Z0-9_-]+)/$ index.php?id_cm=$1
+
+#chuyenmuc
+RewriteRule ^([a-zA-Z0-9_-]+)/page/([0-9]+)$ index.php?id_cm=$1&page=$2
+RewriteRule ^([a-zA-Z0-9_-]+)/page/([0-9]+)/$ index.php?id_cm=$1&page=$2
+
+#chitiet
+RewriteRule ^([a-zA-Z0-9_-]+)-chap-([0-9]+)/([0-9]+).html$ index.php?id_tt=$1&chapter=$2&id_c=$3
+
+RewriteRule ^error$ index.php?id_cm=$1
+
+ErrorDocument 401 http://datdangtin.byethost12.com/error
+ErrorDocument 403 http://datdangtin.byethost12.com/error
+ErrorDocument 404 http://datdangtin.byethost12.com/error
+ErrorDocument 500 http://datdangtin.byethost12.com/error
