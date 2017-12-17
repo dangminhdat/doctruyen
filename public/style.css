@@ -1,0 +1,271 @@
+*{margin: 0; padding: 0;}
+
+.facebook {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 15px;
+}
+
+form#chaper {
+    display: inline;
+}
+
+.noidung span {
+    margin: 10px 0;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    text-align: -o-center;
+}
+
+.truyenhot .bxslider{
+    /*position: relative; */
+    width: 1999px;
+    height: 220px;
+}
+.truyenhot .bxslider img{
+    margin: 0 20px;
+    width: 184px!important;
+    /* position: absolute; */
+    /*left: 0;*/
+    /*top: 0;*/
+}
+
+.truyenhot .thongtin .tongquan button{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.truyenhot .chapter ul {
+    list-style-type: decimal;
+    margin-left: 16px;
+    line-height: 22px;
+}
+
+.truyenhot .chapter .panel.panel-default .panel-heading {
+    padding: 0;
+}
+
+.truyenhot .chapter .panel.panel-default h3.panel-title {
+    border-bottom: 2px solid #fda500;
+    padding: 12px;
+    color: #fda500;
+    width: 250px;
+}
+
+.truyenhot .chapter .panel.panel-default {
+    margin-top: 20px;
+}
+
+.thongtin .chitietthongtin p {
+    line-height: 13px;
+}
+
+.thongtin .chitietthongtin {
+    padding-left: 10px;
+}
+
+.chitietthongtin h4 {
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-style: italic;
+    color: #75b427;
+    font-size: 23px;
+}
+
+.media-body.chitietthongtin label {
+    width: 28%;
+}
+
+.truyenhot .thongtin .tongquan {
+    margin: 40px 0 20px 20px;
+}
+
+.truyenhot .thongtin .chuyenmuc {
+    padding: 10px;
+}
+
+.truyenhot .thongtin .chuyenmuc p {
+    font-size: 10px;
+}
+
+h3.text-center {}
+
+.truyenhot .thongtin h3 {
+    margin-bottom: 26px;
+    margin-top: 27px;
+}
+
+.truyenhot p.noidung {
+    overflow: hidden;
+}
+
+.truyenhot .thongtin {
+    margin-top: 20px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.truyenhot .thongtin > button {
+    margin: 10px 0 -20px 10px;
+}
+
+ul.pagination {
+    padding-top: 20px;
+    margin-left: 16px;
+    border-top: 1px solid #ccc;
+}
+
+.footer {
+    border: 1px solid #ccc;
+    background: #14425d;
+    padding: 20px;
+}
+
+.footer p {
+    color: #fff;
+}
+
+.truyenhot {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+ul.list-group {
+    margin: 0;
+    list-style-type: decimal!important;
+}
+
+.truyenhot ul.list-group li.list-group-item {
+    border-color: #ddd transparent;
+    padding: 13px;
+}
+
+.truyenmoidoc,.topxem {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+.tab-content .tab-pane {
+    margin: 0;
+    padding: 20px 12px;
+}
+
+.tab-content .tab-pane .media {
+    margin-bottom: 30px;
+}
+
+.nav.nav-tabs > li > a {
+    margin: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    border: none;
+    border-bottom: 1px solid #9af821;
+    color: #9af821;
+}
+
+ul.nav.nav-tabs {border: none;}
+
+.chitiet {
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+
+.bx-wrapper {
+    padding-bottom: 12px;
+}
+
+.truyenhot .slide .panel-body {
+    overflow: hidden;
+    margin-bottom: -26px;
+    border: 1px solid #ddd;
+    margin: 16px;
+    padding: 6px;
+}
+
+.truyenhot .slide.panel.panel-default {
+    overflow: hidden;
+    padding: 0;
+    margin-top: 20px;
+    z-index: 9999999999;
+}
+
+.truyenhot .slide .panel-heading {
+    padding: 1px 6px;
+    margin: 16px;
+    background: #9af821;
+}
+
+.tieude {
+    margin: -21px 0 10px 0;
+    padding-top: 7px;
+    background: #ccc;
+    color: #6a6565;
+}
+
+
+
+.dropdown-menu a {
+    color: #fff;
+}
+
+.dropdown-menu li:hover {
+    background: rgba(25, 55, 74, 0.82);
+}
+
+.dropdown-menu  a:hover {
+    text-decoration: none;
+}
+
+ .dropdown-menu li {
+    padding: 10px 11px 10px 17px;
+}
+
+.dropdown-menu {
+    background: #14425d;
+}
+.theloai .dropdown-menu{
+    width: 350px;
+}
+
+.dropdown-menu > li > a {
+    color: #fff;
+}
+
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+    background: #14425d;
+}
+
+nav.navbar.navbar-inverse {
+    background: #14425d;
+    border-color: #14425d;
+   
+}
+body{
+    padding-top: 72px;
+}
+
+.scrolltop{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background: #14aaf2;
+    width: 50px;
+    cursor: pointer;
+    padding: 17px;
+    z-index: 99999999;
+}
+.navbar img{
+    margin-top: -11px;
+}
+@media screen and (min-width: 768px){
+    .navbar form.form-inline.navbar-form{
+        float: right;
+    }
+}

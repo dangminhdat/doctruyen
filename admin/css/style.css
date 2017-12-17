@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background: #14425d;
+    padding: 16px;
+    color: #fff;
+    line-height: 29px;
+}
+
+h3 {
+    margin: 11px 0;
+}
+a.navbar-brand{
+    color: #fff!important;
+}
+
+.noidung {
+    margin-top: 15px;
+}
+#AddTruyenTranh input[type="file"]{
+    padding: 2px 10px;
+    font-size: 12px;
+}
+.bangdieukhien ul.list {
+    margin: -1px 0px 0 5px;
+    padding: 3px;
+}
+
+.bangdieukhien ul.list li.list-group-item {
+    margin: 0 4px;
+}
+.bangdieukhien ul.list li.list-group-item:hover {
+    background: #0d32a4;
+}
+.bangdieukhien ul.list li.list-group-item:nth-child(1):hover {
+    background: #fff;
+}
+.bangdieukhien ul.list li.list-group-item:hover a{
+    color: #fff;
+}
+
+.bangdieukhien ul.list li.list-group-item a {
+    color: #0e0e0e;
+}
+
+.bangdieukhien ul.list li.list-group-item a:hover {
+    text-decoration: none;
+}
+
+.bangdieukhien ul.list li.list-group-item.active {
+    background: #0d32a4;
+}
+
+.bangdieukhien ul.list li.list-group-item.active a {
+    color: #fff;
+}
+
+nav.navbar.navbar-default.bangdieukhien {
+    background: rgb(232, 232, 232);
+    margin: -21px 0 0 0;
+    padding: 0;
+    border-top: 1px solid #c5cfc3;
+}
+@media screen and (max-width: 991px){
+    .bangdieukhien ul.list li.list-group-item {
+        display: block;
+    }
+}

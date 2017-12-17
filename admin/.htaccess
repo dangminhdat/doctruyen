@@ -1,0 +1,21 @@
+# Bảo vệ file .htaccess
+<Files .htaccess>
+Order Allow,Deny
+Deny from all
+</Files>
+ 
+# Rewrite url
+RewriteEngine on
+#sidebar
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?tab=$1
+RewriteRule ^([a-zA-Z0-9_-]+)/$ index.php?tab=$1
+#content-add
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ index.php?tab=$1&ac=$2
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$ index.php?tab=$1&ac=$2
+#content-edit
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([0-9]+)$ index.php?tab=$1&ac=$2&id=$3
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([0-9]+)/$ index.php?tab=$1&ac=$2&id=$3
+#phan-trang
+RewriteRule ^([a-zA-Z0-9_-]+)/page-([0-9]+).html$ index.php?tab=$1&page=$2
+
+
