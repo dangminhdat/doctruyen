@@ -195,8 +195,9 @@ ul.nav.nav-tabs {border: none;}
 }
 
 .truyenhot .slide .panel-heading {
+    display: inline-block;
     padding: 1px 6px;
-    margin: 16px;
+    margin: 16px 0 0 16px;
     background: #9af821;
 }
 
